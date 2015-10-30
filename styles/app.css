@@ -1,0 +1,82 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+/*
+*
+*
+Custom Styles
+*
+*
+*/
+.nav-pills > li{
+  padding-left:5px;
+  padding-right:5px;
+}
+.navbar {
+  border-radius:0;
+}
+.navbar-brand {
+  align-content: center;
+}
+
+.jumboimg{
+  width: 100%;
+}
+.jumbotron{
+  padding-top: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-right: 0%;
+}
+
+.center-div
+{
+  margin: 0 auto;
+  width: 90%;
+  background-color: #eee;
+  border-radius: 1%;
+}
+.home-post-img{
+  border-radius: 1% 1% 0% 0%;
+}
+.text-wrap
+{
+  padding: 7% 7% 5% 7%;
+}
+
+.home-post-footer{
+  background-color:#c12e2a;
+
+}
+
+.home-post-img-wrap{
+  display: inline;
+
+}
